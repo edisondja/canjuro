@@ -1,0 +1,25 @@
+--2020-05-08 23:02:53--  http://sitio.com/
+Resolving sitio.com (sitio.com)... 70.36.107.27
+Connecting to sitio.com (sitio.com)|70.36.107.27|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.sitio.com/ [following]
+--2020-05-08 23:02:54--  http://www.sitio.com/
+Resolving www.sitio.com (www.sitio.com)... 70.36.107.27
+Reusing existing connection to sitio.com:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.sitio.com/ [following]
+--2020-05-08 23:02:55--  https://www.sitio.com/
+Connecting to www.sitio.com (www.sitio.com)|70.36.107.27|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘sitio.com/index.html.tmp’
+
+     0K .......... .......... .......... ..                     293K=0.1s
+
+2020-05-08 23:02:55 (293 KB/s) - ‘sitio.com/index.html.tmp’ saved [32778]
+
+Removing sitio.com/index.html.tmp since it should be rejected.
+
+FINISHED --2020-05-08 23:02:55--
+Total wall clock time: 2.0s
+Downloaded: 1 files, 32K in 0.1s (293 KB/s)

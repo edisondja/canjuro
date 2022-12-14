@@ -1,0 +1,176 @@
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    margin:2px;
+  
+
+}
+
+
+.center_img{
+
+    margin-left: 30%;
+
+}
+
+@media only screen and (max-width : 375px) {
+    
+    .center_img{
+
+        margin-left: 0%;
+    }
+}
+    
+.card_og{
+    border: 1px solid;
+    border-color: #dcdbda;
+    padding: 10px;
+    cursor: pointer;
+    background:#f8f8f8;
+    border-radius: 5px;
+    margin: 2px;
+    width: 75%;
+    
+
+}
+
+.visible_description{
+
+    display: block;
+
+}
+
+.img_card_og{
+    width: 120px;
+    height: 115px;
+    margin: 5px;
+
+}
+
+
+.fontUserComent{
+
+    font-size: 14px;
+    padding: 3px;
+}
+
+.fontComent{
+    font-family: inherit;
+    font-size: 15px;
+    
+
+}
+
+.response_coment{
+
+
+    font-size: 13px;;
+    font-family: cursive;
+    border-radius: 5px;
+    width: 150%;
+   
+  }
+
+
+
+@media only screen and (max-width : 375px) {
+    
+    .visible_description{
+
+        display: none;
+    
+    }
+
+    .card_og{
+        border: 1px solid;
+        border-color: #dcdbda;
+        padding: 10px;
+        cursor: pointer;
+        background:#f8f8f8;
+        border-radius: 5px;
+        margin: 2px;
+        width: 100%;
+    
+    }
+
+    .img_card_og{
+
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+
+    }
+    
+}
+
+.fechaText{
+
+    font-size: 11px;
+    margin-top: 9px;
+    color: #77668d;
+
+
+}
+
+.imagenPerfil{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 2px;
+}
+
+
+.box_comment{
+    background: #1d1c1d;
+    color: #cbcbcb;
+    border-bottom-color: #3a3732;
+}
+
+
+.textComent{
+
+    width: 65%;
+    padding: 5px;
+    border-radius: 5px;
+    background:#2e2929;
+    color:#b7acc4;
+
+
+}
+
+.barContentComent{
+
+    background:#eeeeee;
+}
+
+.CenterProfile{
+
+
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(109, 10, 10); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #940505; 
+  }
+
+
+  
