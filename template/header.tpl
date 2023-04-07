@@ -40,7 +40,7 @@
     
         <div class="container-fluid">
     
-          <a class="navbar-brand" style="color: #09b9e1;"  href="{$dominio}/controllers"><img src='{$logosite}' /><strong style='color:#ebebeb; font-size:15px;'>{$user_session}</strong>
+          <a class="navbar-brand" style="color: #09b9e1;"  href="{$dominio}"><img src='{$logosite}' /><strong style='color:#ebebeb; font-size:15px;'>{$user_session}</strong>
           </a>    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

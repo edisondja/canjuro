@@ -1,13 +1,13 @@
 <?php
    
     //define("DOMAIN","https://943b-152-166-176-57.ngrok.io/edtube");
-    define("DOMAIN","http://localhost/edtube");
+    define("DOMAIN","https://youselft.com");
 
 
     #These are the data for the connection of the database 
     define("HOST_BD","localhost");
-    define("USER_BD","root");
-    define("PASSWORD_BD","");
+    define("USER_BD","goro");
+    define("PASSWORD_BD","meteoro2412");
     define("NAME_DB","edtube");
     #Config with scope complete used for the site tube
     define("NAME_SITE","EDtube");
