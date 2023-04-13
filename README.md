@@ -276,6 +276,7 @@ Red social
 
 
     return[
+        '<script src="https://cdn.example.org/example.js"></script>',  <--- ejemplo
         '<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>',
         '<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>',
         '<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>',
