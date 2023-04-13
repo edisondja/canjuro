@@ -54,7 +54,7 @@ Red social
                        
                        {include file="profile.tpl"} &nbsp; <span style="color:red">Observe como aqui se esta incluyendo el tpl profile, 
                                                              inidicando en la varaible content_config='profile'
-                                                            <span>
+                                                            </span>
                          
                     {else}
                   {/if}
