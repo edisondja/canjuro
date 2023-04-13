@@ -51,8 +51,8 @@ Red social
       el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl, ejemplo..<br>
   </p>
                 
-    <code>
-              if $content_config=='boards'
+      <?php        
+      if $content_config=='boards'
                 
                    elseif $content_config=='single_board'
                    
@@ -68,7 +68,7 @@ Red social
                         include file='default.tpl'
 
                if
-      </code>
+    ?>
   
     <p style="color:red">
         header.tpl, es el template master, que incluye, el titulo del sitio web,logotipo,favicon y menu, por esta razon
