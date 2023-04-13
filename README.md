@@ -10,8 +10,30 @@ Red social
 
 <h3>Estructura del proyecto</h3>
 
+<p>Si usted desea crear nuevas entidades lo hace en este directorio</p>
 <table>
-  <td>Entidades</td>
-  <td>Directirui</td>
+  <td>Trabajar con entidades</td>
+  <td>Directorio</td>
   <td>./Modelos/User.php</td>
 <table>
+
+ <h3>Crear apis para la aplicacion</h3>
+ <p>Para usted crear apis puedo hacerlo de una manera simple, solo tiene que entrar al directorio Controllers/actions_board.php.
+  usted va observar que exite un switch, y una varaible post que recibe el atributo action, este atributo sera utilizado para 
+  definir la accion que desea ejuctar. por ejemplo $_POST['action'] = 'load_user_info', esta accion carga la informacion del usuario con
+  id correspondiente. ejemplo..
+  <?php
+  require('../Models/User.php');
+  switch($_POST['action']){
+    
+   case 'load_user_info':
+        $user = new User();
+        $user->get_info_user($_POST['user_id']);
+   
+   break;
+   
+   
+  }
+  ?>
+   <p>Esta accion retornaria la informacion completa del usuario</p>
+  </p>
