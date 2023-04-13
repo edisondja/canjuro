@@ -10,7 +10,7 @@ Red social
 
 <h3>Estructura del proyecto</h3>
 
-<p>Primero vamos a comenar con la configuracion que se encuentra en este directorio</p>
+<p>Primero vamos a comenar con la configuracion que se encuentra en este directorio ✔</p>
 <table>
   <td>Configurar proyecto en el entorno que estes</td>
   <td>Directorio</td>
@@ -46,7 +46,7 @@ Red social
 <hr>
 
 
-<p>Si usted desea crear nuevas entidades lo hace en este directorio</p>
+<p>Si usted desea crear nuevas entidades lo hace en este directorio ✔</p>
 <table>
   <td>Trabajar con entidades</td>
   <td>Directorio</td>
@@ -84,7 +84,7 @@ Red social
       <td>./template/header.tpl</td>
     <table>
   <p>Si usted desea desarrollar templates y nuevos comoponentes, puede hacerlo en el directorio template,creas
-      el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl, ejemplo..<br>
+      el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl ✔... ejemplo<br>
   </p>
                 
       <?php        
