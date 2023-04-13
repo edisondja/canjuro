@@ -113,8 +113,45 @@ Red social
     
     
  <h3>Como llamar el template o componente creado</h3>
+ <p>Si queremos llamar el componente creado user_profile.tpl por ejemplo, simplemente tenemos que hacer los siguiente
+ creamos un arhcivo user_profile.php y lo seteamos de esta manera.
+ </p>
                          
-                         
+ <code>
+   require('bootstrap.php');
+    require('models/User.php');
+    require('models/Board.php');
+    //Load profile user;
+    //cargar_tableros($id_usuario='general',$opcion='json')
+
+    $smarty->assign('titulo',"Profile by user ".NAME_SITE);
+    $smarty->assign('descripcion',NAME_SITE." plataform free for alls share your contents");
+    $smarty->assign('og_imagen',LOGOSITE);
+    
+    $smarty->assign('url_board',"$dominio");
+
+
+    if(isset($_GET['user'])){
+
+        $profile = new User();
+        $data_user = $profile->LoadProfileUser($_GET['user']);
+        $get_user_id =  $profile->get_id_from_user($_GET['user']);
+        $get_user_id = $get_user_id->id_user;
+        $boards = new Board();
+        $data = $boards->cargar_tableros($get_user_id,'objects');
+        //print_r( $data_user);
+        $smarty->assign('content_config','profile'); al setear prfoile en content_config header.tpl sabra que lo tiene que llamar el profile.tpl
+        $smarty->assign('boards',$data);
+        $smarty->assign('name',$data_user->foto_url);
+        $smarty->assign('og_imagen',$data_user->foto_url);
+        $smarty->assign('data_profile',$data_user);
+        $smarty->display('../template/header.tpl');  >---
+
+    }
+
+ 
+ 
+ </code>
                          
                          
 
