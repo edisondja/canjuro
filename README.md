@@ -54,9 +54,9 @@ Red social
                        
                        {include file="profile.tpl"}  
                               
-                            <i>Observe como aqui se esta incluyendo el tpl profile, 
-                                  inidicando en la varaible content_config='profile'
-                            </i>
+                            Observe como aqui se esta incluyendo el tpl profile, 
+                            inidicando en la varaible content_config='profile'
+                           
                                                           
                     {else}
                   {/if}
