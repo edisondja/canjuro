@@ -42,6 +42,11 @@ Red social
   </p>
   
   <h3>Trabajando con los templates y componentes</h3>
+    <table>
+      <td>Trabajar con templates</td>
+      <td>Directorio</td>
+      <td>./template/header.tpl</td>
+    <table>
   <p>Si usted desea desarrollar templates y nuevos comoponentes, puede hacerlo en el directorio template,creas
   el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl, ejemplo..<br/>
      {if $content_config=='boards'}<br>
@@ -66,9 +71,5 @@ Red social
   
   
   </p>
-  <table>
-    <td>Trabajar con templates</td>
-    <td>Directorio</td>
-    <td>./template/header.tpl</td>
-  <table>
+
   
