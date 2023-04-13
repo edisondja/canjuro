@@ -11,7 +11,7 @@ Red social
 <h3>Estructura del proyecto</h3>
 
 <table>
-  <td>Entidades/td>
+  <td>Entidades</td>
   <td>Directirui</td>
   <td>./Modelos/User.php</td>
 <table>
