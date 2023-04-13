@@ -221,7 +221,7 @@ Red social
     el cual sera almacenado en el localStorage, capturandolo de esta forma "localStorage.getItem(token)".
   </p>     
   
-  <p style="color:brown">Ejemplo utilizado para enviar el token por cabezeras en caso de guardar un comentario observe.</p>
+  <p>Ejemplo utilizado para enviar el token por cabezeras en caso de guardar un comentario observe.</p>
   <code>
     function guardar_comentario(id_usuario,id_tablero,texto,tipo_post){
                           
