@@ -23,11 +23,13 @@ Red social
   definir la accion que desea ejuctar. por ejemplo $_POST['action'] = 'load_user_info', esta accion carga la informacion del usuario con
   con el id  correspondiente. ejemplo..<br/>
   <hr>
+  <?php
+  <br>
   require('../Models/User.php');
   <br><br>
   switch($_POST['action']){
     
-   case 'load_user_info':<br>
+   case 'load_user_info':<br><br>
         &nbsp;$user = new User();
         &nbsp;$user->get_info_user($_POST['user_id']);
    
