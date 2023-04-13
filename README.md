@@ -222,6 +222,39 @@ Red social
   </p>     
   
   <p style="color:brown">Ejemplo utilizado para enviar el token por cabezeras en caso de guardar un comentario observe.</p>
+  <code>
+    function guardar_comentario(id_usuario,id_tablero,texto,tipo_post){
+                          
+                          let token = localStorage.getItem('token');
+
+                                let FormDatas = new FormData();
+                                FormDatas.append('action','save_post');
+                                FormDatas.append('id_user',id_usuario);
+                                FormDatas.append('id_board',id_tablero);
+                                FormDatas.append('text',texto);
+                                FormDatas.append('data_og',set_data_og);
+                                FormDatas.append('type_post',tipo_post);
+
+                                      //  alert(action_comment);
+                        
+                                axios.post(`${dominio}/controllers/actions_board.php`,FormDatas,{headers:{
+                                        'Content-Type': 'multipart/form-data',
+                                        'Authorization': `Bearer ${token}`
+                                }
+                                }).then(info=>{
+
+                                        cargar_comentarios(id_tablero,tipo_post);
+                                        action_comment = 'normal';
+                                        console.log(info);
+
+                                }).catch(error=>{
+
+                                console.log(error);
+
+                                });
+                }
+  
+  </code>
   
   
   
