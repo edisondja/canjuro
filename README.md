@@ -113,7 +113,7 @@ Red social
     
     
  <h3>Como llamar el template o componente creado</h3>
- <p>Si queremos llamar el componente creado profile.tpl por ejemplo, simplemente tenemos que hacer los siguiente
+ <p>Llamando nuestro componente profile.tpl por ejemplo, simplemente tenemos que hacer los siguiente
  creamos un arhcivo user_profile.php y lo seteamos de esta manera.
  </p>
                          
