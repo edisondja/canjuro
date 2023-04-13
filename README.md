@@ -65,7 +65,7 @@ Red social
                             Observe como aqui se esta incluyendo el tpl profile, 
                             inidicando en la varaible content_config=='profile'                                        
                     else
-                        {include file="default.tpl"}  
+                        include file="default.tpl" 
 
                /if
          
