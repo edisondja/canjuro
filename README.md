@@ -144,7 +144,7 @@ Red social
   
   </code>
   <p>
-    Ya que tenemos el componente o template user.tpl creado, vamos proceder a registrarlo en header.tpl,
+    Ya que tenemos el componente o template profile.tpl creado, vamos proceder a registrarlo en header.tpl,
     en la condicion de content_config.
   </p>
   
