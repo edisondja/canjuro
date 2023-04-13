@@ -18,7 +18,7 @@ Red social
 </table>
 
 <code>
-  <?php
+  
     define("DOMAIN","https://youselft.com");
     #These are the data for the connection of the database 
     define("HOST_BD","localhost");
@@ -42,7 +42,6 @@ Red social
     #Description for search using hastag
     define("SEARCH_HASTAG","The Best badders Hashtag - edtube")
  
-  
 </code>
 <hr>
 
