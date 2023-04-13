@@ -51,7 +51,7 @@ Red social
       el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl, ejemplo..<br/>
   </p>
                 
-              "{if $content_config=='boards'}
+              {if $content_config=='boards'}
                 
                    {elseif $content_config=='single_board'}
                    
@@ -66,7 +66,7 @@ Red social
                     {else}
                         {include file="default.tpl"}  
 
-               {/if}"
+               {/if}
          
   
     <p style="color:red">
