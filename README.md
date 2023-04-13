@@ -256,5 +256,42 @@ Red social
   </code>
   
   
-  
-  
+  <h3>Como cargar CDN globales en cajuro</h3>
+    <p>My simple vamos al directorio donde se cargar las librerias globales </p>
+    <table>
+        <td>Cargando librerias globales CDN</td>
+        <td>Directorio</td>
+        <td>./Controllers/libs/connect_cdn.php</td>
+    </table>
+   <p>
+      Luego de abrir el archivo connec_cdn.php, vamos a ver las librerias cdn cargadas por defecto aqui puedes poner la que deseas y llamarla
+      en cualquier lugar del proyecto ya que esta es cargada por el archivo bootstrap.php, que es el primero que se cuando se inicia la app.
+   </p>
+   
+   <code>
+    <?php
+
+    /*Cdn readye for function now with a scope global*/
+
+
+
+    return[
+        '<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>',
+        '<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>',
+        '<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>',
+        '<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>',
+        '<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>',
+        '<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>',
+        '<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>',
+        "<link rel='stylesheet' href='$dominio/controllers/css/main.css'/>",
+        '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
+        "<script src='$dominio/js/paginar_tableros.js'></script>",
+        "<script src='$dominio/js/BoardOperation.js'></script>",
+           
+    ];
+
+    
+?>
+   
+   </code>
+   
