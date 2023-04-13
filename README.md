@@ -176,7 +176,7 @@ Red social
     
  <h3>Como llamar el template o componente creado</h3>
  <p>Llamando nuestro componente profile.tpl por ejemplo, simplemente tenemos que hacer los siguiente
- creamos un arhcivo user_profile.php y lo seteamos de esta manera.
+ creamos un arhcivo user_profile.php y lo seteamos de esta manera.✔
  </p>
                          
  <code>
@@ -214,14 +214,14 @@ Red social
  
  </code>
                          
- <h3>Como funciona la autenticación de canjuro?</h3>  
+ <h3>Como funciona la autenticación de canjuro? ✔</h3>  
  <p>Es total simple la forma en que funciona autenticación de canjuro, cuando un usuario inicia sesion, se llama actions_board.php,
     el archivo que mostramos con anticipacion donde se llaman las apis, se envia una accion llamda 'login_user' el switch va learla
     y llama la funcion de iniciar sesion del modelo ./Models/User.php, una vez la sesion fue exitosa nos va retornar un Json web token,
     el cual sera almacenado en el localStorage, capturandolo de esta forma "localStorage.getItem(token)".
   </p>     
   
-  <p>Ejemplo utilizado para enviar el token por cabezeras en caso de guardar un comentario observe.</p>
+  <p>Ejemplo utilizado para enviar el token por cabezeras en caso de guardar un comentario observe.✔ </p>
   <code>
     function guardar_comentario(id_usuario,id_tablero,texto,tipo_post){
                           
