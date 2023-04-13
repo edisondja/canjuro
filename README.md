@@ -118,11 +118,10 @@ Red social
  </p>
                          
  <code>
-   require('bootstrap.php');
+    require('bootstrap.php');
     require('models/User.php');
     require('models/Board.php');
-    //Load profile user;
-    //cargar_tableros($id_usuario='general',$opcion='json')
+
 
     $smarty->assign('titulo',"Profile by user ".NAME_SITE);
     $smarty->assign('descripcion',NAME_SITE." plataform free for alls share your contents");
