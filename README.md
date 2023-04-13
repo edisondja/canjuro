@@ -90,9 +90,9 @@ Red social
     Creando el template profile.tpl preste atencion aqui.
   </p>
   <code>
-         <div class="col-md-3">
+    <div class="col-md-3">
       
-          </div> 
+    </div> 
           <div class="col-md-6">
                   <div class="card" style='padding:20px;'>
                   <div>
