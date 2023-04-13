@@ -48,7 +48,8 @@ Red social
       <td>./template/header.tpl</td>
     <table>
   <p>Si usted desea desarrollar templates y nuevos comoponentes, puede hacerlo en el directorio template,creas
-  el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl, ejemplo..<br/>
+      el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl, ejemplo..<br/>
+  </p>
                 
               {if $content_config=='boards'}
                 
@@ -68,7 +69,7 @@ Red social
                {/if}
               
  
-  </p>
+
   
     <p style="color:red">
         header.tpl, es el template master, que incluye, el titulo del sitio web,logotipo,favicon y menu, por esta razon
