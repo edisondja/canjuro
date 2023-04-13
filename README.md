@@ -18,7 +18,7 @@ Red social
 <table>
 
  <h3>Crear apis para la aplicacion</h3>
- <p>Para usted crear apis puedo hacerlo de una manera simple, solo tiene que entrar al directorio Controllers/actions_board.php.
+ <p>Para usted crear apis puede hacerlo de una manera simple, solo tiene que entrar al directorio Controllers/actions_board.php.
   usted va observar que exite un switch, y una varaible post que recibe el atributo action, este atributo sera utilizado para 
   definir la accion que desea ejuctar. por ejemplo $_POST['action'] = 'load_user_info', esta accion carga la informacion del usuario con
   id correspondiente. ejemplo..<br/>
