@@ -51,22 +51,23 @@ Red social
       el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl, ejemplo..<br/>
   </p>
                 
-              {if $content_config=='boards'}
+    
+              if $content_config=='boards'
                 
-                   {elseif $content_config=='single_board'}
+                   elseif $content_config=='single_board'
                    
                       {include file="single_board.tpl"}
                       
-                    {elseif $content_config=='profile'}
+                    elseif $content_config=='profile'
                        
-                       {include file="profile.tpl"}  <-----
+                       include file="profile.tpl"  <-----
                               
                             Observe como aqui se esta incluyendo el tpl profile, 
                             inidicando en la varaible content_config=='profile'                                        
-                    {else}
+                    else
                         {include file="default.tpl"}  
 
-               {/if}
+               /if
          
   
     <p style="color:red">
