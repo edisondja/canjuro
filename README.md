@@ -19,7 +19,7 @@ Red social
 
 <code>
   
-    define("DOMAIN","https://youselft.com");
+    define("DOMAIN","https://localhost.com");
     #These are the data for the connection of the database 
     define("HOST_BD","localhost");
     define("USER_BD","goro");
