@@ -30,7 +30,7 @@ Red social
   switch($_POST['action']){
     
    case 'load_user_info':<br><br>
-        &nbsp;$user = new User();
+        &nbsp;$user = new User();<br>
         &nbsp;$user->get_info_user($_POST['user_id']);
    
    break;
