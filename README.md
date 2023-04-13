@@ -67,7 +67,7 @@ Red social
                     else
                         include file="default.tpl" 
 
-               /if
+               if
          
   
     <p style="color:red">
