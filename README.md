@@ -45,7 +45,7 @@ Red social
   <p>Si usted desea desarrollar templates y nuevos comoponentes, puede hacerlo en el directorio templates,
     para crear una vista haciendo un nuevo .tpl, siempre tienens que incluir el componente header.tpl y footer.tpl,
     para mantener la estructura del proyecto, header.tpl, trae junto al el logo de la plataforma,titulo,descripcion del sitio,menu
-    y todas las librerias globales
+    y todas las librerias globales.
   </p>
   <table>
     <td>Trabajar con templates</td>
