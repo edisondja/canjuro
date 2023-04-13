@@ -93,15 +93,15 @@ Red social
          <div class="col-md-3">
               <br/>
 
-                      {if $user_session!=''}
+                {if $user_session!=''}
                           <input type='hidden' value='{$id_user}' id='id_usuario'/>
                           <input type='hidden' value='{$user_session}' id='usuario'/>
                           <input type='hidden' value='{$foto_perfil}' id='foto_url'/>
-                      {else}
+                 {else}
                           <input type='hidden' value='0' id='id_usuario'/>
                           <input type='hidden' value='0' id='usuario'/>
                           <input type='hidden' value='0' id='foto_url'/>
-                      {/if}
+                 {/if}
                   <svg class="bd-placeholder-img rounded float-start" style="width:100%;display:none;"
                   xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 200x200" 
                   preserveAspectRatio="xMidYMid slice" 
