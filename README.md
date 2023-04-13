@@ -235,8 +235,7 @@ Red social
                                 FormDatas.append('data_og',set_data_og);
                                 FormDatas.append('type_post',tipo_post);
 
-                                      //  alert(action_comment);
-                        
+               
                                 axios.post(`${dominio}/controllers/actions_board.php`,FormDatas,{headers:{
                                         'Content-Type': 'multipart/form-data',
                                         'Authorization': `Bearer ${token}`
