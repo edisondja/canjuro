@@ -24,6 +24,7 @@ Red social
   con el id  correspondiente. ejemplo..<br/>
   <hr>
   require('../Models/User.php');
+  <br>
   switch($_POST['action']){
     
    case 'load_user_info':<br>
