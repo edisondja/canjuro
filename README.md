@@ -48,7 +48,7 @@ Red social
     y todas las librerias globales
   </p>
   <table>
-    <td>Trabajar con entidades</td>
+    <td>Trabajar con templates</td>
     <td>Directorio</td>
     <td>./templates/header.tpl</td>
   <table>
