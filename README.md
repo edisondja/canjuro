@@ -50,12 +50,14 @@ Red social
                    
                       {include file="single_board.tpl"}
                       
-                    {elseif $content_config=='profile'}<br>
+                    {elseif $content_config=='profile'}
                        
-                       {include file="profile.tpl"} &nbsp; <span style="color:red">Observe como aqui se esta incluyendo el tpl profile, 
-                                                             inidicando en la varaible content_config='profile'
-                                                            </span>
-                         
+                       {include file="profile.tpl"}  
+                              
+                            <i>Observe como aqui se esta incluyendo el tpl profile, 
+                                  inidicando en la varaible content_config='profile'
+                            </i>
+                                                          
                     {else}
                   {/if}
               
