@@ -22,8 +22,8 @@ Red social
     define("DOMAIN","https://localhost.com");
     #These are the data for the connection of the database 
     define("HOST_BD","localhost");
-    define("USER_BD","goro");
-    define("PASSWORD_BD","meteoro2412");
+    define("USER_BD","seus");
+    define("PASSWORD_BD","password");
     define("NAME_DB","edtube");
     #Config with scope complete used for the site tube
     define("NAME_SITE","EDtube");
