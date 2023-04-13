@@ -49,27 +49,29 @@ Red social
     <table>
   <p>Si usted desea desarrollar templates y nuevos comoponentes, puede hacerlo en el directorio template,creas
   el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl, ejemplo..<br/>
-     {if $content_config=='boards'}<br>
                 
-                   {elseif $content_config=='single_board'}<br>
+              {if $content_config=='boards'}
+                
+                   {elseif $content_config=='single_board'}
                    
                       {include file="single_board.tpl"}
                       
                     {elseif $content_config=='profile'}
                        
-                       {include file="profile.tpl"}  
+                       {include file="profile.tpl"}  <-----
                               
                             Observe como aqui se esta incluyendo el tpl profile, 
-                            inidicando en la varaible content_config='profile'
-                           
-                                                          
+                            inidicando en la varaible content_config='profile                                         
                     {else}
-                  {/if}
+                        {include file="default.tpl"}  
+
+               {/if}
               
-  
-  
-  
-  
+ 
   </p>
+                         
+                         
+                         
+                         
 
   
