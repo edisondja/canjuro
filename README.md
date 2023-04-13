@@ -42,14 +42,31 @@ Red social
   </p>
   
   <h3>Trabajando con los templates y componentes</h3>
-  <p>Si usted desea desarrollar templates y nuevos comoponentes, puede hacerlo en el directorio templates,
-    para crear una vista haciendo un nuevo .tpl, siempre tienens que incluir el componente header.tpl y footer.tpl,
-    para mantener la estructura del proyecto, header.tpl, trae junto al el logo de la plataforma,titulo,descripcion del sitio,menu
-    y todas las librerias globales.
+  <p>Si usted desea desarrollar templates y nuevos comoponentes, puede hacerlo en el directorio template,creas
+  el componente profile.tpl por ejemplo y luego lo incluyes en las condiciones del header.tpl, ejemplo..<br/>
+     {if $content_config=='boards'}<br>
+                
+                   {elseif $content_config=='single_board'}<br>
+                   
+                      {include file="single_board.tpl"}
+                      
+                    {elseif $content_config=='profile'}<br>
+                       
+                       {include file="profile.tpl"} &nbsp; <span style="color:red">Observe como aqui se esta incluyendo el tpl profile, 
+                                                             inidicando en la varaible content_config='profile'
+                                                            <span>
+                         
+                    {else}
+                  {/if}
+              
+  
+  
+  
+  
   </p>
   <table>
     <td>Trabajar con templates</td>
     <td>Directorio</td>
-    <td>./templates/header.tpl</td>
+    <td>./template/header.tpl</td>
   <table>
   
