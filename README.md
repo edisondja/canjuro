@@ -61,7 +61,7 @@ Red social
                        {include file="profile.tpl"}  <-----
                               
                             Observe como aqui se esta incluyendo el tpl profile, 
-                            inidicando en la varaible content_config='profile                                         
+                            inidicando en la varaible content_config=='profile'                                        
                     {else}
                         {include file="default.tpl"}  
 
@@ -69,6 +69,14 @@ Red social
               
  
   </p>
+  
+    <p style="color:red">
+        header.tpl, es el template master, que incluye, el titulo del sitio web,logotipo,favicon y menu, por esta razon
+        comenzamos a desarrollar a partir de el.
+    </p>
+    
+    
+ <h3>Como llamar el template o componente creado</h3>
                          
                          
                          
