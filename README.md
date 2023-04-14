@@ -8,9 +8,14 @@ Red social
   no solo producto digitales tambien fisico.
 </p>
 
-<h3>Estructura del proyecto</h3>
 
-<p>Primero vamos a comenar con la configuracion que se encuentra en este directorio ✔</p>
+
+<h3>Configuracion del proyecto</h3>
+<p>En primer lugar en la raiz del proyecto vamos a ejecutar el comando "php composer install" para que se instalen todas
+las dependencias que vamos a necesitar para trabajar el proyecto</p>
+
+
+<p>En segundo lugar vamos a comenzar con la configuracion que se encuentra en este directorio ✔</p>
 <table>
   <td>Configurar proyecto en el entorno que estes</td>
   <td>Directorio</td>
