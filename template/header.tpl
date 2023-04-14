@@ -77,11 +77,11 @@
 
                    {else}
                       <li class="dropdown-item" id='login' style='cursor:pointer'>Login</li>
-
+                       <a href="https://youselft.com/registrer.php" style='text-decoration:none;'>
+                       <li class="dropdown-item"  style='cursor:pointer'>Registrer</li>
+                       </a>
                    {/if}
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                
                 </ul>
               </li>
             </ul>
@@ -164,7 +164,13 @@
 
                     {elseif $content_config=='profile'}
                         {include file="profile.tpl"}
-                            <!--  include template for user-->
+
+                        <!--  include template for user-->
+
+                    {elseif $content_config=='registrer'}
+
+                        {include file="registrer.tpl"}
+
                     {else}
                   {/if}
                   {if $content_config!='profile'}

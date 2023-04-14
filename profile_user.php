@@ -1,7 +1,9 @@
 <?php
+    
     require('bootstrap.php');
     require('models/User.php');
     require('models/Board.php');
+
     //Load profile user;
     //cargar_tableros($id_usuario='general',$opcion='json')
 

@@ -39,10 +39,10 @@ window.onload=function(){
                   }
             */
 
-            axios.post(`${dominio}/controllers/actions_board.php`,FormDatas).then(data=>{
+            axios.post(`controllers/actions_board.php`,FormDatas).then(data=>{
 
    
-                location.href=dominio+"/controllers";
+                location.href=dominio;
                 localStorage.setItem('token',data.data.token);
                 localStorage.setItem('usuario',data.data.usuario);
 

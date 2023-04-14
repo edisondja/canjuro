@@ -12,7 +12,8 @@ Class User extends EncryptToken{
     public string $nombre;
     public string $apellido;
     public string $clave;
-    public string $correo;
+    public string $email;
+    public string $bio;
     public string $foto_url;
     public $conection;
     
@@ -33,9 +34,9 @@ Class User extends EncryptToken{
 
                 $clave = md5($this->clave);
                 $fecha = date('ymdis');
-                $sql = "insert into user(usuario,clave,email,sexo,foto_url,fecha_creacion,nombre,apellido)VALUES(?,?,?,?,?,?,?,?)";
+                $sql = "insert into user(usuario,clave,email,sexo,foto_url,fecha_creacion,nombre,apellido,bio)VALUES(?,?,?,?,?,?,?,?,?)";
                 $ready = $this->conection->prepare($sql);
-                $ready->bind_param('ssssssss',
+                $ready->bind_param('sssssssss',
                 $this->usuario,
                 $clave,
                 $this->email,
@@ -43,7 +44,9 @@ Class User extends EncryptToken{
                 $this->foto_url,
                 $fecha,
                 $this->nombre,
-                $this->apellido);
+                $this->apellido,
+                $this->bio,
+                );
                 $ready->execute();
                 $this->SendMailActivedAccount();
                 echo "success";

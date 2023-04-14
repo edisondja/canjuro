@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2023-04-06 13:53:23
+/* Smarty version 4.2.1, created on 2023-04-11 04:06:12
   from '/var/www/youselft/template/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_642f07138e5588_26739553',
+  'unifunc' => 'content_643514f47a3157_20793157',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9d17ef06d485d15b90723ccbe2f7a22ac8c28ac2' => 
     array (
       0 => '/var/www/youselft/template/header.tpl',
-      1 => 1680802769,
+      1 => 1681200371,
       2 => 'file',
     ),
   ),
@@ -21,10 +21,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:board.tpl' => 1,
     'file:single_board.tpl' => 1,
     'file:profile.tpl' => 1,
+    'file:registrer.tpl' => 1,
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_642f07138e5588_26739553 (Smarty_Internal_Template $_smarty_tpl) {
+function content_643514f47a3157_20793157 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="en">
   <head>
@@ -133,11 +134,11 @@ function content_642f07138e5588_26739553 (Smarty_Internal_Template $_smarty_tpl)
 
                    <?php } else { ?>
                       <li class="dropdown-item" id='login' style='cursor:pointer'>Login</li>
-
+                       <a href="https://youselft.com/registrer.php" style='text-decoration:none;'>
+                       <li class="dropdown-item"  style='cursor:pointer'>Registrer</li>
+                       </a>
                    <?php }?>
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                
                 </ul>
               </li>
             </ul>
@@ -232,7 +233,14 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                     <?php } elseif ($_smarty_tpl->tpl_vars['content_config']->value == 'profile') {?>
                         <?php $_smarty_tpl->_subTemplateRender("file:profile.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
-                            <!--  include template for user-->
+
+                        <!--  include template for user-->
+
+                    <?php } elseif ($_smarty_tpl->tpl_vars['content_config']->value == 'registrer') {?>
+
+                        <?php $_smarty_tpl->_subTemplateRender("file:registrer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
                     <?php } else { ?>
                   <?php }?>
                   <?php if ($_smarty_tpl->tpl_vars['content_config']->value != 'profile') {?>

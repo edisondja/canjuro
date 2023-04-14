@@ -1,4 +1,7 @@
 <?php
+
+    
+
   require '../logic.php'; 
   require '../models/User.php';
   require '../models/Coment.php';
@@ -10,6 +13,8 @@
 
 
 
+
+
   $action= $_POST['action'];
 
 
@@ -17,7 +22,6 @@
 
         case 'save_post':
             
-   
               $guardar = new Coment();
               $guardar->id_post = $_POST['id_board'];
               $guardar->id_user = $_POST['id_user'];
@@ -25,17 +29,27 @@
               $guardar->tipo_post = $_POST['type_post']; 
               $guardar->data_og = $_POST['data_og'];
               $guardar->guardar_comentario();
-             /*
-              $guardar = new Coment();
-                $guardar->id_post = 10;
-                $guardar->id_user = 1;
-                $guardar->comentario = 'probando objeto de comentario';
-                $guardar->tipo_post = 'board';
-                $guardar->data_og ='';
-                $guardar->guardar_comentario();*/
+         
             
         break;
 
+
+        case 'create_user':
+            
+           
+    
+            $usuario = new User();
+            $usuario->usuario = $_POST['usuario'];
+            $usuario->nombre=  $_POST['nombre'];
+            $usuario->foto_url= '';
+            $usuario->email = $_POST['email'];
+            $usuario->apellido=  $_POST['apellido'];
+            $usuario->bio =  $_POST['bio'];
+            $usuario->clave =  $_POST['clave'];
+            $usuario->RegistrerUser();
+    
+
+        break;
         
         case 'update_coment':
 
@@ -102,17 +116,7 @@
         break;
 
         
-        case 'create_user_now':
-
-            $usuario = new User();
-            $usuario->usuario = $_POST['usuario'];
-            $usuario->nombre=  $_POST['nombre'];
-            $usuario->foto_url= '';
-            $usuario->apellido=  $_POST['user'];
-            $usuario->clave =  $_POST['clave'];
-            $usuario->RegistrerUser();
-
-        break;
+  
 
         case 'login':
 
@@ -130,11 +134,13 @@
         
         case 'get_metaog':
             
+            
+
+            
            // $usuario = new User();
            // $token =$usuario->VerifiyTokenExpired($usuario->getBearerToken());
-
             $url = $_POST['url'];
-            Core::GetGrapth($url);
+           Core::GetGrapth($url);
 
            
 
@@ -153,7 +159,9 @@
             
  
          break;
-  
+            
+
+      
 
 
 

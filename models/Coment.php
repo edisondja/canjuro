@@ -80,6 +80,7 @@ Class Coment extends EncryptToken{
 
 					$execute->execute();
 					echo $execute->get_result();
+					echo "guardado cone exito";
 				
 				}catch(Exception $error){
 

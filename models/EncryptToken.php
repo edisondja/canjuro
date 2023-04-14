@@ -1,7 +1,8 @@
 <?php
-    require('../vendor/firebase/php-jwt/src/JWT.php');
-    require('../vendor/firebase/php-jwt/src/Key.php');
-    require('../vendor/firebase/php-jwt/src/ExpiredException.php');
+   
+    require_once(DOMAIN."/vendor/firebase/php-jwt/src/JWT.php");
+    require_once(DOMAIN."/vendor/firebase/php-jwt/src/Key.php");
+    require_once(DOMAIN."/vendor/firebase/php-jwt/src/ExpiredException.php");
 
     use Firebase\JWT\ExpiredException;
     use Firebase\JWT\JWT;
