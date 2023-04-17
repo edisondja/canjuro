@@ -298,4 +298,18 @@ las dependencias que vamos a necesitar para trabajar el proyecto. ✔</p>
 
    
    </code>
+    
+    <h3>Donde crear y utilizar los scripts para las vistas</h3>
+    <table>
+        <tr>
+            <td>Trabajar con scripts en vistas</td>
+            <td>Directorio</td>
+             <td>js/profile.js</td>
+        </tr>
+    
+    </table>
+  
+   
+   
+   
    
