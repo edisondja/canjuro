@@ -22,7 +22,7 @@
     define("SEARCH_DESCRIPTION","Baddie Sweet one Sex Tape");
     define("PAGE_DESCRIPTION","Uckers badders from United Kingdom NSFW XXX");
     #The title description is the tag used for the browser for example..
-    define("TITLE_DESCRIPTION","Better Uckers badders Sex Tapes - edtube");-
+    define("TITLE_DESCRIPTION","Better Uckers badders Sex Tapes - edtube");
     #Description for search using hastag
     define("SEARCH_HASTAG","The Best badders Hashtag - edtube");
     
