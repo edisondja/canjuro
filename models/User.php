@@ -33,7 +33,7 @@ Class User extends EncryptToken{
             if($this->ExistUser($this->usuario)==true){
 
                 $clave = md5($this->clave);
-                $fecha = date('ymdis');
+                $fecha = date('Y-m-d H:i:s');
                 $sql = "insert into user(usuario,clave,email,sexo,foto_url,fecha_creacion,nombre,apellido,bio)VALUES(?,?,?,?,?,?,?,?,?)";
                 $ready = $this->conection->prepare($sql);
                 $ready->bind_param('sssssssss',
