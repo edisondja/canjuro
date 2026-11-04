@@ -1,11 +1,23 @@
-Ilustraciones anime — escenas Levítico (pureza / ofrendas)
+Ilustraciones anime — Levítico (secuencia completa para reel)
 Formato: 9:16 vertical
 
-1) anime_01_dios_moises_aaron.jpg
-   Dios habla a Moisés y a Aarón (luz santa / Tabernáculo).
+ESCENA A — Dios habla
+01 anime_01_dios_moises_aaron.jpg  — Dios habla a Moisés y Aarón
+04 anime_04_closeup_moises.jpg     — Close-up Moisés
+05 anime_05_closeup_aaron.jpg      — Close-up Aarón
+12 anime_12_cierre_luz.jpg         — Cierre silueta + Tabernáculo
 
-2) anime_02_vaso_barro_roto.jpg
-   Contacto que contamina: el vaso de barro se rompe / se destruye.
+ESCENA B — Vaso de barro (3 frames de acción)
+06 anime_06_vaso_impacto.jpg       — Mano toca el vaso / grietas
+02 anime_02_vaso_barro_roto.jpg    — Momento de rotura
+07 anime_07_vaso_explosion.jpg     — Explosión de fragmentos
+08 anime_08_vaso_escombros.jpg     — Aftermath / escombros
 
-3) anime_03_dos_palominos.jpg
-   Sacrificio de dos palominos: uno holocausto, otro expiación.
+ESCENA C — Dos palominos
+09 anime_09_altar_zoom.jpg         — Zoom al altar
+03 anime_03_dos_palominos.jpg      — Ambos palominos
+10 anime_10_palomino_holocausto.jpg — Holocausto
+11 anime_11_palomino_expiacion.jpg  — Expiación
+
+ORDEN SUGERIDO EN EL REEL
+01 → 04 → 05 → 06 → 07 → 08 → 09 → 10 → 11 → 03 → 12
