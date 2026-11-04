@@ -1,0 +1,40 @@
+REEL — Levítico 15:16-18 (1 minuto 30 segundos)
+Formato: 9:16 vertical | 9 imágenes
+
+TEMPORIZACIÓN SUGERIDA
+---------------------------------
+0:00–0:08  | 01_hook.jpg
+  VOZ: "Levítico 15. Pureza ceremonial. ¿Qué dice la Biblia sobre la emisión de semen?"
+
+0:08–0:18  | 02_contexto.jpg
+  VOZ: "Ojo: esto no habla de pecado moral. Habla de impureza ceremonial para acercarse al santuario."
+
+0:18–0:35  | 03_v16.jpg
+  TEXTO EN PANTALLA + VOZ (15:16):
+  "Si un hombre tiene emisión de semen, debe bañarse todo el cuerpo con agua
+   y queda ceremonialmente impuro hasta la tarde."
+
+0:35–0:50  | 04_v17.jpg
+  TEXTO + VOZ (15:17):
+  "La ropa y los objetos de cuero que hayan recibido semen deben lavarse
+   y quedan impuros hasta la tarde."
+
+0:50–1:08  | 05_v18.jpg
+  TEXTO + VOZ (15:18):
+  "Si un hombre y una mujer tienen relaciones y hay emisión de semen,
+   ambos deben bañarse y quedan impuros hasta la tarde."
+
+1:08–1:15  | 06_hasta_tarde.jpg
+  VOZ: "La impureza no era para siempre: tenía límite. Hasta la tarde."
+
+1:15–1:24  | 07_ensenanza.jpg
+  VOZ: "Tres lecciones: Dios cuida la santidad, el cuerpo importa, y siempre hubo camino de limpieza."
+
+1:24–1:30  | 08_cierre.jpg  (o 09_texto_completo.jpg como slide final estático)
+  VOZ: "Limpieza, no vergüenza. Guarda, comparte y comenta."
+
+NOTAS DE EDICIÓN
+- Música suave instrumental / hebraica ligera, volumen bajo bajo la voz.
+- Transiciones: fade suave o zoom lento (Ken Burns) 5–8%.
+- Captions grandes (las imágenes ya traen texto; puedes duplicar con AutoCaptions).
+- CTA final en pantalla 2 segundos.
